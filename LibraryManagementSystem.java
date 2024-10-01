@@ -18,7 +18,7 @@ public class LibraryManagementSystem extends JFrame {
     private static Map<String, String> userCredentials = new HashMap<>();
     
     // Fixed array of categories
-    private String[] categories = {"Fiction", "Non-Fiction", "Science", "History", "Horror/Thriller", "Action"};
+    private String[] categories = {"Fiction", "Non-Fiction", "Science", "History", "Horror/Thriller", "Action", "Adventure", "Romance", "Fantasy", "Classic"};
 
     public LibraryManagementSystem() {
         setTitle("Library Management System");
